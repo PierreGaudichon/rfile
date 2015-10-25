@@ -1,8 +1,10 @@
 Small wrapper for `fs.readFile`
 ===============================
 
-	rfile = require "rfile"
+```coffee
+rfile = require "rfile"
 
-	rfile "package.json"
-		.then JSON.parse
+rfile "package.json"
+	.then JSON.parse
 
+```
